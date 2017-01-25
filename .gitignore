@@ -2,6 +2,7 @@ dist
 src/client/lib
 # Node build artifacts
 node_modules
+log
 npm-debug.log
 
 # Local development

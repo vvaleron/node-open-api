@@ -12,7 +12,7 @@
     "watch": "npm run sass-watch & npm run babel-watch",
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
-    "prestart": "npm run -s build",
+    "prestart": "npm run build",
     "start": "node dist",
     "copy-md-bootstrap-css": "copyfiles -f ./node_modules/mdbootstrap/css/* ./src/client/lib/mdbootstrap/css",
     "copy-md-bootstrap-js": "copyfiles -f ./node_modules/mdbootstrap/js/* ./src/client/lib/mdbootstrap/js",

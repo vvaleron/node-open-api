@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/server/db/schemas/index.js"],"names":["userSchema"],"mappings":";;;;;;AAAA;;;;;;kBAEe;AACXA,gBAAY;AADD,C","file":"index.js","sourcesContent":["import userSchema from './user.schema';\n\nexport default {\n    userSchema: new userSchema()\n};"]}

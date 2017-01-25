@@ -1,4 +1,3 @@
-dist
 src/client/lib
 # Node build artifacts
 node_modules
@@ -14,5 +13,4 @@ npm-debug.log
 # Docker
 Dockerfile
 docker-compose.yml
-/dist/
 /src/client/lib/
